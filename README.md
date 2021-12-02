@@ -8,8 +8,6 @@ This repository contains becnelli's solutions for the 2021 Advent of Code.
 
 ## Summary
 
-### Legend
-
 Day | Puzzle Name     | Status | Remarks |
 ---    |---           |---     |---    |
 01     | Sonar Sweep  | ⭐⭐ | I miss statically typed languages. ☹️
