@@ -8,6 +8,9 @@ This repository contains becnelli's solutions for the 2021 Advent of Code.
 
 ## Summary
 
-Day | Puzzle Name  | Status | Remarks |
----    |---    |---    |---    |
-01     | Sonar Sweep | ✨ ✨ | I miss statically typed languages. ☹️
+### Legend
+
+Day | Puzzle Name     | Status | Remarks |
+---    |---           |---     |---    |
+01     | Sonar Sweep  | ⭐⭐ | I miss statically typed languages. ☹️
+02     | Dive!        | ⭐⭐ | I decided to solve today's puzzle before getting out of bed in the morning. Mobile python development in an online IDE is possible, but not enjoyable. 
