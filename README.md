@@ -12,3 +12,4 @@ Day | Puzzle Name     | Status | Remarks |
 ---    |---           |---     |---    |
 01     | Sonar Sweep  | ⭐⭐ | I miss statically typed languages. ☹️
 02     | Dive!        | ⭐⭐ | I decided to solve today's puzzle before getting out of bed in the morning. Mobile python development in an online IDE is possible, but not enjoyable. 
+03     | Binary Diagnostic | ⭐⭐ | I did the binary to decimal conversion manually in the code.  I should research math libraries!
