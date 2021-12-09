@@ -2,7 +2,7 @@
 
 from itertools import groupby
 
-with open('../input_files/day_07_test.txt', 'r') as f:
+with open('../input_files/day_08_test.txt', 'r') as f:
     lines = f.readlines()
 
 def solution1(lines):
