@@ -1,8 +1,6 @@
 ### --- Day 8: --- ###
 
-from itertools import groupby
-
-with open('../input_files/day_08_test.txt', 'r') as f:
+with open('../input_files/day_08.txt', 'r') as f:
     lines = f.readlines()
 
 def solution1(lines):
@@ -20,6 +18,9 @@ solution1(lines)
 
 # ---- Part 2 ---------
 
+def reverseReverse(data):
+    return dict((''.join(sorted(set(v))),k) for k,v in data.items())
+
 def groupBySize(data):
     results = {}
     
@@ -33,10 +34,7 @@ def groupBySize(data):
 
 
 def decodeNums(data):
-
-    print(data)
     bySize = groupBySize(data)
-
     results = {}
 
     # we automatically know 1, 4, 7, 8 by size
@@ -109,21 +107,27 @@ def decodeNums(data):
             break
 
     ## 2 remains
-    results[2]=bySize[5]
+    results[2]=bySize[5][0]
     bySize.pop(5)
 
 
-    print("results:", results)
-    print("bySize:", bySize)
-    print()
-
-
+    return reverseReverse(results)
 
 def solution2(lines):
+    result = 0
     for line in lines:
         parts=line.split('|')
-
         numMap=decodeNums(parts[0].split())
+        
+        num=""
+        for val in parts[1].split():
+            val=''.join(sorted(set(val)))
+            digit=str(numMap[val])
+            num+=str(numMap[val])
+
+        result+=int(num)
+
+    print("Puzzle 2:", result)
 
 
 solution2(lines)
