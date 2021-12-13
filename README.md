@@ -21,3 +21,5 @@ Day | Puzzle Name     | Status | Remarks |
 09     | Smoke Basin | ⭐⭐ | I struggled with part 2 today. That could be because I skimmed the instructions 😄
 10     | Syntax Scoring | ⭐⭐ | I loved this one, but it's also something I've reasoned through before when providing a custom query builder at work
 11     | Dumbo Octopus | ⭐⭐ | The work I did in part 1 helped me in part 2
+12     | Passage Pathing |     | I skipped this for now
+13     | Transparent Origami | ⭐⭐ | I'm running out of interesting comments 
