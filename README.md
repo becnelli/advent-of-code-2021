@@ -23,3 +23,5 @@ Day | Puzzle Name     | Status | Remarks |
 11     | Dumbo Octopus | ⭐⭐ | The work I did in part 1 helped me in part 2
 12     | Passage Pathing |     | I skipped this for now
 13     | Transparent Origami | ⭐⭐ | I'm running out of interesting comments 
+14     | Extended Polymerization | ⭐⭐ | Sometimes you know brute force will be bad, but you do it anyways..
+15     | Chiton  | ⭐⭐ | I caved and finally installed a python editor with debugging
