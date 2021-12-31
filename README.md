@@ -25,3 +25,4 @@ Day | Puzzle Name     | Status | Remarks |
 13     | Transparent Origami | ⭐⭐ | I'm running out of interesting comments 
 14     | Extended Polymerization | ⭐⭐ | Sometimes you know brute force will be bad, but you do it anyways..
 15     | Chiton  | ⭐⭐ | I caved and finally installed a python editor with debugging
+16     | Packet Decoder | ⭐⭐ | I really enjoyed this one when I was finally well rested enough to focus on it. 
